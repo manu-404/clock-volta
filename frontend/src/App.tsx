@@ -7,6 +7,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <LocalizationProvider dateAdapter={AdapterDayjs}>
+          <Clock />
+        </LocalizationProvider>
       </header>
     </div>
   );

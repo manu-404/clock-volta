@@ -1,0 +1,25 @@
+.clock {
+    margin-top: 50px;
+}
+
+.svg {
+    width: 200px;
+    height: 200px;
+}
+
+.circle {
+    fill: #fff;
+    stroke: #333;
+    stroke-width: 2;
+}
+
+.hour,
+.minute,
+.second {
+    stroke: #333;
+    stroke-width: 2;
+}
+
+.dot {
+    fill: #333;
+}
