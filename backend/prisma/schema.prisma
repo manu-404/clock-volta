@@ -13,3 +13,7 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+model Alarm {
+  id    Int       @id   @default(autoincrement())
+  date  DateTime
+}
